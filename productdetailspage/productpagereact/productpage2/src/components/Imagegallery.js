@@ -15,28 +15,26 @@ export default class Imagegallery extends Component {
         gallery: [backside, blackapple, blueapple, body, lens]
       }
       
-      onClickNext= () => {
-          if (this.state.index + 1 === this.state.gallery.length ){
-              this.setState({ 
-                  index: 0 
-                })
-            } else {
-                this.setState({
-                    index: this.state.index + 1
-                })
-            }
+      onClickNext=() => {
+          if(this.state.index+1 === this.state.gallery.length)
+          {   
+            this.setState({index:0})
+          } 
+          else 
+          {
+            this.setState({index:this.state.index+1})
+          }
 
           }
-          onClickPrevious= () => {
-            if (this.state.index - 1 === -1 ){
-                this.setState({ 
-                    index: this.state.gallery.length - 1
-                  })
-              } else {
-                  this.setState({
-                      index: this.state.index - 1
-                  })
-              }
+          onClickPrevious=() => {
+            if(this.state.index-1 === -1)
+            {
+              this.setState({index:this.state.gallery.length-1})
+            } 
+            else 
+            {
+              this.setState({index:this.state.index-1})
+            }
             }
       
       render() {
