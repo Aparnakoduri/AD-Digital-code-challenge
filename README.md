@@ -1,5 +1,7 @@
 # Product details page developed using spring boot(maven) and react on visual studio code
 
+Install node,vs code,npm packages(react,react-router-dom,react-dom,spring intitializer,maven etc)
+
 1.Clone the repository to local folder
 
 
@@ -16,7 +18,7 @@
 
 
 
-6.Now open the react project and navigate to productpage(cd productpage)
+6.Now open the react project and navigate to productpage2(cd productpage2)
 
 
 7.Run the npm start command on the vs code terminal
