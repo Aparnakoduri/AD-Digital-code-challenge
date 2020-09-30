@@ -30,29 +30,7 @@ public class ProductService {
 		return products;
 	}
 
-	// public Product save(Product product) {
-	// 	if (product.getId() == -1 || product.getId() == 0) {
-	// 		product.setId(++id);
-	// 		products.add(product);
-	// 	} else {
-	// 		deleteById(product.getId());
-	// 		products.add(product);
-	// 	}
-	// 	return product;
-	// }
-
-	// public Product deleteById(int id) {
-	// 	Product product = findById(id);
-
-	// 	if (product == null)
-	// 		return null;
-
-	// 	if (products.remove(product)) {
-	// 		return product;
-	// 	}
-	// 	return null;
-	// }
-
+	
 	public Product findById(int id) {
 		for (Product product : products) {
 			if (product.getId() == id) {
