@@ -1,0 +1,48 @@
+:root {
+  --mainteal: rgb(51, 190, 255);
+  --mainblack:rgb(10, 10, 10);
+  --mainwhite: rgb(207, 224, 231);
+}
+
+body{
+  font-family: 'Lato', sans-serif !important;
+  background:var(--mainwhite) !important;
+  color:var(--mainblack) !important;
+}
+
+.mytitle{
+  font-family: 'Lato', sans-serif;
+  letter-spacing:0.3rem;
+  text-transform:uppercase;
+}
+
+.myaboutus{
+  font-family: 'Lato', sans-serif ;
+  color: var(--mainblack);
+  position:relative;
+  left: 1220px;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: inside;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.alignright {
+  width:40%;
+  float: right;
+}
+.alignleft {
+  width:51%;
+  display:inline-block;
+}
